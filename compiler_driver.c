@@ -91,7 +91,14 @@ int run_compiler_pass(const char *input_file, const char *output_file, const cha
     return EXIT_SUCCESS;
 }
 
-// --- Main Driver Logic ---
+// --- Main Driver Logic --- 
+
+/**
+ * @brief The main function for the compiler driver.
+ * @param argc The argument count.
+ * @param argv The argument vector.
+ * @return EXIT_SUCCESS or EXIT_FAILURE.
+ */
 int main(int argc, char *argv[]) 
 {
     if (argc < 2 || argc > 3) 
